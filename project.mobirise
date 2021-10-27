@@ -35,7 +35,7 @@
     },
     "favicon": "@PROJECT_PATH@/assets/images/phoeonix-copy.png",
     "noImageResize": true,
-    "google-analytics": "",
+    "google-analytics": "<meta name=\"robots\" content=\"noindex, nofollow\">",
     "versionFirst": "4.3.0",
     "uniqCompNum": 432,
     "versionPublish": "4.11.6",
@@ -59,11 +59,12 @@
       "underlineLink": false,
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n<meta name=\"robots\" content=\"noindex, nofollow\">\n\n"
   },
   "pages": {
     "index.html": {
