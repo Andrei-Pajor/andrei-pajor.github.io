@@ -64,7 +64,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n<meta name=\"robots\" content=\"noindex, nofollow\">\n\n"
+    "robotsText": "User-agent: *\nDisallow: /\n\n\n\n\n"
   },
   "pages": {
     "index.html": {
